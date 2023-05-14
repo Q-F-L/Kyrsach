@@ -1,0 +1,65 @@
+{
+    "name" : "Архитектурно-строительный факультет (АСФ)",
+    "fioDekana" : "Тускаева Залина Руслановна",
+    "phoneNumber" : "+7 (8672) 407-385",
+    "kafedra": [
+        {
+            "id" : "0",
+            "name" : "Кафедра архитектуры и дизайна (АРХиД)",
+            "fioZavKafedri" : "Баликоев Арсен Анатольевич",
+            "phoneNumber" : "+7 (8672) 407-387",
+            "amountPC" : "10",
+            "specialnost": [
+                {
+                    "id" : "0",
+                    "name" : "Архитекторы",
+                    "lengthOfStudy" : "120",
+                    "items": [
+                        {
+                            "id" : "0",
+                            "name" : "Рисовалки",
+                            "amountHours" : "120",
+                            "fioTeacher" : "Тяп Ляп Чин",
+                            "semestr": "1",
+                            "literature": [
+                                {
+                                    "id" : "0",
+                                    "name" : "Изо спасет жизнь",
+                                    "fioAuthor" : "Тяп Ляп Чин",
+                                    "dateOfPublication" : "2000"
+                                },
+                                {
+                                    "id" : "1",
+                                    "name" : "Математический анализ для профи",
+                                    "fioAuthor" : "Тяп Ляп Чин",
+                                    "dateOfPublication" : "2001"
+                                }
+                            ]
+                        },
+                        {
+                            "id" : "1",
+                            "name" : "Строй.бат.",
+                            "amountHours" : "1000",
+                            "fioTeacher" : "Отсюдав Ида Обедавич",
+                            "semestr": "2",
+                            "literature": [
+                                {
+                                    "id" : "0",
+                                    "name" : "Как копать траншеи",
+                                    "fioAuthor" : "Отсюдав Ида Обедавич",
+                                    "dateOfPublication" : "2003"
+                                },
+                                {
+                                    "id" : "1",
+                                    "name" : "Лопата - друг солдата",
+                                    "fioAuthor" : "Отсюдав Ида Обедавич",
+                                    "dateOfPublication" : "2002"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
