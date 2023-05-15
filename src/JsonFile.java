@@ -89,7 +89,7 @@ public class JsonFile {
     public Facultet readJson(String fileInput) throws JsonParseException, JsonMappingException, IOException
     {
         ObjectMapper mapper = new ObjectMapper();
-        Facultet facultet = mapper.readValue (new File(path+fileInput), Facultet.class);
+        Facultet facultet = mapper.readValue(new File(path+fileInput), Facultet.class);
         return facultet;
     }
 }

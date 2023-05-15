@@ -10,6 +10,18 @@ public class Facultet {
     private String phoneNumber; // Номер телефона
     private Kafedra[] kafedra; // Кафедры
 
+    public int counter(){ // Количество элементов в массиве Кафедра
+        return kafedra.length;
+    }
+
+    public String toStringOnly() {
+        String str = "\nНазвание: "+this.getName()+
+            "\nФИО Декана: "+this.getFioDekana()+
+            "\nНомер телефона: "+this.getPhoneNumber();
+
+        return str;
+    }
+
     public String toString() {
         String str = "\nНазвание: "+this.getName()+
             "\nФИО Декана: "+this.getFioDekana()+
@@ -38,7 +50,6 @@ public class Facultet {
         ArrayList<Facultet> facultets = new ArrayList<Facultet>();
 
         for (int i = 0; i < json.getAll().size(); i++) {
-            System.out.println(json.getAll().get(i));
             facultets.add(json.readJson(json.getAll().get(i)));
         }
 
